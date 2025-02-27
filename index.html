@@ -1,40 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="minimal-table.css">
-</head>
-<body>
-  
-  <table>
-    <caption> table sctyle css</caption>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>ID</th>
-        <th>Favorite Color</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Jim</td>
-        <td>00001</td>
-        <td>Blue</td>
-      </tr>
-      <tr>
-        <td>Sue</td>
-        <td>00002</td>
-        <td>Red</td>
-      </tr>
-      <tr>
-        <td>Barb</td>
-        <td>00003</td>
-        <td>Green</td>
-      </tr>
-    </tbody>
-  </table>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Table template</h1>
 
-</body>
+
+    <table>
+      <caption>Data about the planets of our solar system (Planetary facts taken
+         from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's 
+          Planetary Fact Sheet - Metric</a>).</caption>
+      <thead>
+        <tr>
+
+          <th scope="col" colspan="2"></th>
+          <th scope="col">name</th>
+          <th scope="col">mass</th>
+          <th scope="col">diameter</th>
+          <th scope="col">density</th>
+          <th scope="col">gravity </th> 
+          <th scope="col">length of day</th>
+          <th scope="col">distance from son</th>
+          <th scope="col">mean temp</th>
+          <th scope="col">num of moons</th>
+          <th scope="col">notes</th>
+    
+        </tr>
+
+      </thead>
+      <tbody>
+
+
+        <tr>
+          <th rowspan="4" colspan="2" scope="rowgroup">terrestial plants</th>
+          <th scope="row">mercury</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th scope="row">venus</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">earth</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">mars</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+
+        <tr>
+          <th rowspan="4" scope="rowgroup">jovian planets</th>
+          <th rowspan="2" scope="rowgroup">gas giants</th>
+          <th scope="row">jupiter</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th scope="row">saturn</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        
+        </tr>
+
+        <tr>
+          <th rowspan="2" scope="rowgroup">ice giants</th>
+          <th scope="row">uranus</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th scope="row">neptune</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th colspan="2" scope="row">dwarf planets</th>
+          <th scope="row">pluto</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
 </html>
