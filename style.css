@@ -1,5 +1,59 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.parent {
+
+}
+
+.child-one {
+
+}
+
+.child-two {
+
+}
+
+.child-three {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+}
+
+.child {
+  padding: 5px;
+}
+
+.child-one {
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
 }
