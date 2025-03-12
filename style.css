@@ -1,24 +1,4 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
 /* Add styles here */
-a:link {
-  color: orange;
-}
-
-a:visited {
-  color: green;
-}
-
-a:hover {
-text-decoration: none;}
-
-.container:first-child {
-  font-size: 150%;
-}
-
-.container:first-child::first-line {
-  color: red;
-}
-
-tr:nth-child(even) {
-  background-color: #333;
-  color: white;
-}
