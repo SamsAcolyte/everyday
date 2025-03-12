@@ -1,26 +1,5 @@
-.box {
-    background-color: lightblue;
-    border: 5px solid darkblue;
-    padding: 10px;
-    margin: 1em 0;
-  }
-  
-  .wrapper {
-    font-size: 1.5em;
-    background-color: aqua;
-  }
-  
-  .px {
-    width: 200px;
-    background-color:blue ;
-  }
-  
-  .vw {
-    width: 10vw;
-    background-color:brown ;
-  }
-  
-  .em {
-    width: 10em;
-    background-color:chartreuse ;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
